@@ -1,0 +1,43 @@
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+Week1 : A New Programming Paradigm
+Week2 : Introduction to Computer Vision
+Week3 : Enhancing Vision with Convolutional Neural Networks
+Week4 : Using Real-world Images 
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+Week1 : A New Programming Paradigm
+
+!pip install tensorflow==2.0.0-alpha0 
+
+Rules + Data = Answers -> rules-based programming
+Answers + Data = Rules -> ML
+
+
+The framework for defining a neural network as a set of Sequential layers is called "KERAS"
+	
+	import tensorflow as tf
+	import numpy as np
+	from tensorflow import keras
+	model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+	model.compile(optimizer='sgd', loss='mean_squared_error')
+	xs = np.array([-1.0,  0.0, 1.0, 2.0, 3.0, 4.0], dtype=float)
+	ys = np.array([-3.0, -1.0, 1.0, 3.0, 5.0, 7.0], dtype=float)
+	model.fit(xs, ys, epochs=500)
+	print(model.predict([10.0])) #[[18.978462]]
+
+----------------------------------------------------------------------------------------------
+Week2 : Introduction to Computer Vision
+
+
+
+----------------------------------------------------------------------------------------------
+Week3 : Enhancing Vision with Convolutional Neural Networks
+
+
+
+----------------------------------------------------------------------------------------------
+Week4 : Using Real-world Images 
