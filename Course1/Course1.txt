@@ -32,7 +32,7 @@ The framework for defining a neural network as a set of Sequential layers is cal
 ----------------------------------------------------------------------------------------------
 Week2 : Introduction to Computer Vision
 
-
+Fashion MNIST - https://github.com/zalandoresearch/fashion-mnist
 
 ----------------------------------------------------------------------------------------------
 Week3 : Enhancing Vision with Convolutional Neural Networks
